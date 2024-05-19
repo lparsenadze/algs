@@ -9,7 +9,7 @@ def fibonacci_number_fast(n):
     if n <= 1:
         return n
     prev = 0
-    curr = 0
+    curr = 1
     for i in range(2, n):
         prev, curr = curr, prev + curr
     return curr

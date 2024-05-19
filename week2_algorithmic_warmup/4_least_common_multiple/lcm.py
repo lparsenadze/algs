@@ -13,7 +13,7 @@ def lcm_fast(a, b):
         return gcd(b, a_)
     g = gcd(a, b)
 
-    return abs(a * b) / g
+    return int(abs(a * b) / g)
 
 if __name__ == '__main__':
     #from random import randint
